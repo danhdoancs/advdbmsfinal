@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 14, 2015, 4:55:47 PM
+    Author     : danh
+*/
+
+html {
+    background: #F1F1F1;
+}
+
+html body {
+    width: 70%;
+    margin: 10px auto;    
+    padding:15px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+header {
+    display: block;
+    height: 100px;
+}
+
+header h1 {
+    border-bottom: 1px solid;
+    padding: 0px 0px 10px 0px;
+}
+
+.headerLeft {
+    float: left;
+    width: 70%;
+}
+
+.headerRight {
+    float: right;
+    width: 30%;
+    text-align:right;
+}
+
+.captitalize {
+    text-transform: capitalize;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.success_message {
+    padding: 0px 0px 10px 5px;
+    font-weight: bold;
+    color: green;
+    width: 100%;
+    float: left;
+}
+
+.error_message {
+    font-weight: bold;
+    color: red;
+    float: left;
+    width: 100%;
+    padding: 0px 0px 10px 5px;
+}
+
+footer {
+    margin: 50px 0px 0px 0px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    clear: left;
+}
+
+main {
+    min-height: 350px;
+}
+main ol {
+    float: left;
+}
+
+main ol li {
+    padding-bottom: 10px;
+}
+
+.linkColor {
+    color: black;
+}
+
+.linkColor:hover {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.resetBtn {
+    margin-left: 10px;
+}
